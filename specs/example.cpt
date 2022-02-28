@@ -1,0 +1,47 @@
+Created by testinium on 2/28/2022
+
+This is a concept file with following syntax for each concept.
+#Anasayfaya girildi
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+* "5" saniye kadar bekle
+# Kategorilere tıklanması
+* id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+* "5" saniye kadar bekle
+# Kadın seçeneğine tıklandı
+* "5" saniye kadar bekle
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" li elemente tıkla
+* "5" saniye kadar bekle
+
+# Pantolon kategorisine girildi
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" li elemente tıkla
+* "5" saniye kadar bekle
+# Scroll yapıldı
+* "asagıya kaydır" aşağı kaydırma çalıştırıldı
+* "3" saniye kadar bekle
+* "asagıya kaydır" aşağı kaydırma çalıştırıldı
+* "3" saniye kadar bekle
+# Rastgele ürün seçimi yapıldı
+* "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" rastgele ürün secildi
+* "5" saniye kadar bekle
+# Favoriler butonuna tıklanması
+* id "com.ozdilek.ozdilekteyim:id/imgFav" li elemente tıkla
+* "5" saniye kadar bekle
+
+# Giriş yapma sayfasının doğrulanması
+* "com.ozdilek.ozdilekteyim:id/etEposta" İd'li elemente "Eda Ayan" değerini yaz
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etPassword" İd'li elemente "1q2w3e4r5t" değerini yaz
+* "3" saniye kadar bekle
+
+# Geri butonuna iki kez tıklanması
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "3" saniye kadar bekle
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "3" saniye kadar bekle
+# Random ürün seçilmesi
+* "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" rastgele ürün secildi
+* "3" saniye kadar bekle
+
+# Seçilen random ürünün sepete eklenmesi
+* id "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" li elemente tıkla
+* "3" saniye kadar bekle
